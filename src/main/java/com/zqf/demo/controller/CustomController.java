@@ -12,6 +12,7 @@ import java.io.IOException;
 
 @Controller
 @RequestMapping("/demo")
+@Security({"root01","root02"})
 public class CustomController {
 
     @Autowired
@@ -19,7 +20,7 @@ public class CustomController {
 
 
     @RequestMapping("/query01")
-    @Security("root01")
+    @Security({"root01","root02","root03"})
     public String query01(HttpServletRequest request, HttpServletResponse response, String username) throws IOException {
         response.getWriter().write(username+"用户正在访问。。。。。。");
         return customServiceImpl.getName(username);

@@ -229,6 +229,8 @@
       <change beforePath="$PROJECT_DIR$/../../qkx/target/classes/org/besti/qkx/util/IpTransferUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../qkx/target/classes/org/besti/qkx/util/SM3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../qkx/target/classes/org/besti/qkx/util/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zqf/demo/controller/CustomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zqf/demo/controller/CustomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zqf/demo/service/impl/SecurityInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zqf/demo/service/impl/SecurityInterceptor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +238,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -260,6 +263,38 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RunManager">
+    <configuration name="customSpringmvc [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.customSpringmvc [tomcat7:run]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -269,6 +304,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638276511370</updated>
       <workItem from="1638276512692" duration="7000" />
+      <workItem from="1638342136064" duration="3072000" />
     </task>
     <servers />
   </component>
